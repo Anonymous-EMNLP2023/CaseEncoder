@@ -2,6 +2,8 @@
 
 ## Before Start
 
+Please unzip all .blk.zip files in ``data``
+
 A few parameters in ``config/Caseformer.config`` need to be specified:
 
 - ``train_data_path``, ``valid_data_path`` in ``config/Caseformer.config`` is the path of the pre-training and validation dataset, which is not included in this repo due to the space limit. But we provide exactly the same checkpoint of CaseEncoder reported in our paper [here](https://drive.google.com/file/d/1KL_cKyiRsnz4FOiFMfGBQrPbEXyNpl5Q/view?usp=drive_link).
